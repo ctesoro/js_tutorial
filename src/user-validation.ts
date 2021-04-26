@@ -9,4 +9,3 @@ export const usernameValidation = (username: string): boolean => {
     return false;
   }
 }
-console.log(usernameValidation('u__hello_world123'));
