@@ -8,4 +8,4 @@ export const usernameValidation = (username: string): boolean => {
   else {
     return false;
   }
-}
+};

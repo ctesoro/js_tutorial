@@ -1,6 +1,5 @@
 export const fibonacci = (inputNum: number): Array<number> => {
-
-    let result = [0, 1];
+    const result = [0, 1];
 
     if (inputNum > 1) {
         for (let i = 2; i <= inputNum; i++) {
