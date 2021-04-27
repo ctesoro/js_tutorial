@@ -5,7 +5,7 @@ export const numbersMax = (numArr: number[]): number => {
   for (let i=1; i < numArr.length; ++i){
     if (numArr[i] > maxValue)
     {
-        maxValue = numArr[i];
+      maxValue = numArr[i];
     }
   }
   return maxValue;
